@@ -1,5 +1,8 @@
 {
   "markdown.editor.filePaste.enabled": true,
+  "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+  "markdown.editor.drop.copyIntoWorkspace": "mediaFiles",
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
   "markdown.copyFiles.destination": {
     "**/*": "${documentDirName}/assets/${documentBaseName}/"
   }
