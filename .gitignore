@@ -1,0 +1,51 @@
+# STM32CubeIDE (GitHub 공식 템플릿 기반)
+
+# Build folders
+Debug/
+Release/
+build/
+
+# Build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.o
+*.d
+*.a
+*.su
+*.cyclo
+
+# Eclipse / CubeIDE metadata
+.metadata/
+.settings/
+*.launch
+.cproject
+.project
+.cache/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Secret / 민감정보 (절대 커밋 금지)
+*.key
+*.pem
+secrets/
+.env
+
+# Wokwi 시뮬레이션 캐시 (사용 시)
+wokwi-cache/

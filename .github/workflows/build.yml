@@ -1,0 +1,52 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ARM GCC toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi
+
+      - name: Verify toolchain
+        run: |
+          arm-none-eabi-gcc --version
+          arm-none-eabi-size --version
+
+      # 백로그: Makefile 또는 CMake 빌드 활성화 시 활성화
+      # - name: Build firmware
+      #   run: make -C tools all
+      #
+      # - name: Show binary size
+      #   run: arm-none-eabi-size build/firmware.elf
+
+      - name: Placeholder check (until Make/CMake added)
+        run: |
+          echo "Toolchain ready. Build step pending Makefile."
+          ls -la Core/Src/ 2>/dev/null || echo "(Core/Src not yet populated)"
+
+  static-analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install cppcheck
+        run: sudo apt-get update && sudo apt-get install -y cppcheck
+
+      - name: Run cppcheck
+        run: |
+          cppcheck --enable=warning,style,performance,portability \
+                   --suppress=missingIncludeSystem \
+                   --error-exitcode=0 \
+                   Core/Src/ Core/Inc/ 2>&1 | tee cppcheck.log
