@@ -5,5 +5,25 @@
   "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
   "markdown.copyFiles.destination": {
     "**/*": "${documentDirName}/assets/${documentBaseName}/"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#1b2a3a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#1b2a3a99",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "activityBar.background": "#2b435d",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#1b2a3a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.remoteBackground": "#1b2a3a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "sash.hoverBorder": "#2b435d",
+    "activityBar.activeBackground": "#2b435d",
+    "commandCenter.border": "#e7e7e799",
+    "statusBarItem.hoverBackground": "#2b435d"
+  },
+  "peacock.color": "#1b2a3a"
 }
