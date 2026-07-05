@@ -1,3 +1,28 @@
+# TIL — Embedded
+
+임베디드 SW 학습 기록. STM32 bare-metal 중심.
+
+## 목차
+
+### C 언어
+- [`c언어/`](./c언어/)
+
+### STM32
+- [`stm32/gpio/`](./stm32/gpio/)
+- [`stm32/uart/`](./stm32/uart/)
+- [`stm32/i2c/`](./stm32/i2c/)
+- [`stm32/can/`](./stm32/can/)
+
+### CS 기초
+- [`cs/`](./cs/)
+- [`cs/RTOS/`](./cs/RTOS/)
+
+### 포트폴리오 프로젝트
+- STM32F103 IMU-CAN Driver: 아래 프로젝트 개요 참조
+- SIL 시뮬레이터: [`sim/`](./sim/)
+
+---
+
 # STM32F103 IMU-CAN Driver
 
 STM32F103C8T6 (BluePill) bare-metal 펌웨어. MPU6050 IMU 센서를 I2C 레지스터 직접 제어로 읽고, CAN 버스로 자세 데이터를 송신합니다.
