@@ -26,7 +26,7 @@
 <span style="color:#111827">a. Timer 입력 클럭을 나눠 카운터가 세는 속도를 낮춤</span><br>
 <span style="color:#111827">b. 빠른 216MHz를 그대로 쓰면 너무 빨리 카운트됨</span><br>
 <span style="color:#111827">c. 원하는 주기를 만들기 위해 적절한 분주비를 잡음</span><br>
-<span style="color:#111827">cf) prescale = 주파수를 나누는 것</span><br>
+<span style="color:#111827">cf) 분주 = 클럭을 N번에 한 번씩 세어 주파수를 1/N로 낮추는 것</span><br>
 <span style="color:#dc2626">※ STM32 PSC 레지스터 값은 보통 실제 분주비보다 1 작게 넣음</span><br>
 <br>
 <span style="color:#1d4ed8">3. Counter</span><br>

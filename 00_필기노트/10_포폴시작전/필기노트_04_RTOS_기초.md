@@ -132,6 +132,9 @@
 <span style="color:#111827">b. 높은 priority task가 같은 mutex를 기다림</span><br>
 <span style="color:#111827">c. 중간 priority task가 CPU를 써서 낮은 task가 mutex를 못 놓음</span><br>
 <span style="color:#111827">d. 결과적으로 높은 priority task가 오래 밀림</span><br>
+<span style="color:#111827">Priority inheritance = mutex를 잡은 낮은 task의 priority를 잠시 올려줌</span><br>
+<span style="color:#111827">낮은 task가 빨리 실행되어 mutex를 풀게 하기 위함</span><br>
+<span style="color:#111827">- 예: Low가 mutex 보유, High가 대기 → Low를 잠시 High 수준으로 올림</span><br>
 <span style="color:#dc2626">※ priority inheritance는 이 문제를 줄이기 위한 장치</span><br>
 <br>
 <span style="color:#1d4ed8">12. ISR에서 주의</span><br>
