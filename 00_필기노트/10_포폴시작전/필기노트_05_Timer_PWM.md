@@ -204,9 +204,9 @@
 ## 참고 자료
 
 <span style="color:#1d4ed8">원본 소스</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/stm32/timer/1_타이머카운터와_PWM.md</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/stm32/기초/3_클럭과_PLL설정.md</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/stm32/기초/README.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/stm32/timer/1_타이머카운터와_PWM.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/stm32/기초/3_클럭과_PLL설정.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/stm32/기초/README.md</span><br>
 <br>
 <span style="color:#1d4ed8">원본 강의</span><br>
 <a style="color:#111827" href="https://www.youtube.com/watch?v=XOsyrZGZtR8">STM32 입문 강의 몰아보기 | ARM, GPIO, ADC, UART (YouTube)</a><br>

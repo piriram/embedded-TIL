@@ -225,9 +225,9 @@
 <span style="color:#1d4ed8">원본 소스</span><br>
 <span style="color:#111827">embeded_TIL/README.md</span><br>
 <span style="color:#111827">embeded_TIL/30_프로젝트/docs/datasheet-notes.md</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/hardware/wiring-notes.md</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/hardware/pinmap.md</span><br>
-<span style="color:#111827">embeded_TIL/10_학습자료/stm32/uart/1_UART통신.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/hardware/wiring-notes.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/hardware/pinmap.md</span><br>
+<span style="color:#111827">embeded_TIL/10_주제별/stm32/uart/1_UART통신.md</span><br>
 <span style="color:#111827">20_Applications/.../Group1_임베디드펌웨어시스템SW_신입_면접공통예상질문_심층리포트.md</span><br>
 <span style="color:#111827">20_Applications/.../2026-05-27_임베디드_SW_신입_기술질문_은행_v2.md</span><br>
 <br>

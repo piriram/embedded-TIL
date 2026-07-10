@@ -1,6 +1,6 @@
 # Mutex vs Semaphore
 
-> 출처: `10_학습자료/cs/RTOS/7_세마포어.md` (§6) + `10_학습자료/cs/RTOS/6_Mutex.md` (§5)
+> 출처: `10_주제별/cs/RTOS/7_세마포어.md` (§6) + `10_주제별/cs/RTOS/6_Mutex.md` (§5)
 > 최종 갱신: 2026-05-27
 
 ---

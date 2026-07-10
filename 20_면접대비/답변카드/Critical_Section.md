@@ -1,6 +1,6 @@
 # Critical Section과 Mutual Exclusion
 
-> 출처: `10_학습자료/cs/RTOS/6_Mutex.md` (§4)
+> 출처: `10_주제별/cs/RTOS/6_Mutex.md` (§4)
 > 최종 갱신: 2026-05-27
 
 ---
