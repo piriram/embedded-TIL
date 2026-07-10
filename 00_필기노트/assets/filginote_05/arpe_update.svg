@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .line{stroke:#111827;stroke-width:3;fill:none}
+    .bad{stroke:#dc2626;stroke-width:4;fill:none}
+    .ok{stroke:#1d4ed8;stroke-width:4;fill:none}
+    .dash{stroke:#64748b;stroke-width:2;stroke-dasharray:6 6}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">ARPE: ARR 변경 적용 시점</text>
+  <text x="42" y="78" class="red" font-size="18">ARPE=0: 즉시 적용</text>
+  <polyline points="50,135 160,135 160,92 270,92 270,135 340,135 340,115 390,115 390,135 470,135" class="bad"/>
+  <line x1="335" y1="72" x2="335" y2="150" class="dash"/>
+  <text x="335" y="64" text-anchor="middle" class="text" font-size="14">ARR 줄임</text>
+  <text x="514" y="118" class="red" font-size="16">짧은 펄스/글리치 위험</text>
+  <text x="42" y="184" class="blue" font-size="18">ARPE=1: 다음 Update Event에 적용</text>
+  <polyline points="50,244 160,244 160,202 270,202 270,244 380,244 380,202 490,202 490,244 600,244" class="ok"/>
+  <line x1="335" y1="190" x2="335" y2="260" class="dash"/>
+  <line x1="490" y1="190" x2="490" y2="260" class="dash"/>
+  <text x="335" y="178" text-anchor="middle" class="text" font-size="14">ARR 변경 예약</text>
+  <text x="490" y="178" text-anchor="middle" class="blue" font-size="14">Update 때 반영</text>
+  <text x="360" y="286" text-anchor="middle" class="text" font-size="16">동작 중 주기 변경은 한 주기 끝에서 반영해야 안전함</text>
+</svg>

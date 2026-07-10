@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300">
+  <rect width="960" height="300" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, Arial">
+    <text x="480" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#1d4ed8">레지스터는 비트 단위 스위치판</text>
+    <text x="480" y="78" text-anchor="middle" font-size="18" fill="#4b5563">각 bit를 0/1로 바꿔 기능을 켜거나 끈다</text>
+    <g transform="translate(80 120)">
+      <rect x="0" y="0" width="800" height="70" rx="10" fill="#f8fafc" stroke="#111827" stroke-width="3"/>
+      <g font-size="18" text-anchor="middle">
+        <rect x="0" y="0" width="100" height="70" fill="#eff6ff" stroke="#111827" stroke-width="2"/>
+        <text x="50" y="30" fill="#1d4ed8" font-weight="700">bit7</text><text x="50" y="55" fill="#111827">0</text>
+        <rect x="100" y="0" width="100" height="70" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+        <text x="150" y="30" fill="#1d4ed8" font-weight="700">bit6</text><text x="150" y="55" fill="#111827">0</text>
+        <rect x="200" y="0" width="100" height="70" fill="#eff6ff" stroke="#111827" stroke-width="2"/>
+        <text x="250" y="30" fill="#1d4ed8" font-weight="700">bit5</text><text x="250" y="55" fill="#111827">1</text>
+        <rect x="300" y="0" width="100" height="70" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+        <text x="350" y="30" fill="#1d4ed8" font-weight="700">bit4</text><text x="350" y="55" fill="#111827">0</text>
+        <rect x="400" y="0" width="100" height="70" fill="#eff6ff" stroke="#111827" stroke-width="2"/>
+        <text x="450" y="30" fill="#1d4ed8" font-weight="700">bit3</text><text x="450" y="55" fill="#111827">1</text>
+        <rect x="500" y="0" width="100" height="70" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+        <text x="550" y="30" fill="#1d4ed8" font-weight="700">bit2</text><text x="550" y="55" fill="#111827">0</text>
+        <rect x="600" y="0" width="100" height="70" fill="#eff6ff" stroke="#111827" stroke-width="2"/>
+        <text x="650" y="30" fill="#1d4ed8" font-weight="700">bit1</text><text x="650" y="55" fill="#111827">1</text>
+        <rect x="700" y="0" width="100" height="70" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+        <text x="750" y="30" fill="#1d4ed8" font-weight="700">bit0</text><text x="750" y="55" fill="#111827">0</text>
+      </g>
+    </g>
+    <text x="480" y="245" text-anchor="middle" font-size="20" font-weight="700" fill="#dc2626">핵심: 레지스터 값 하나 안에서도 특정 bit만 의미를 가진다</text>
+  </g>
+</svg>

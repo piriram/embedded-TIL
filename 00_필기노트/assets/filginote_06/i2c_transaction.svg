@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="34" class="blue" font-size="24">I2C register read 흐름</text>
+  <g transform="translate(30,75)">
+    <rect x="0" y="0" width="82" height="56" class="box"/><text x="41" y="34" text-anchor="middle" class="blue" font-size="15">START</text>
+    <path d="M82 28 H112" class="arrow"/>
+    <rect x="112" y="0" width="92" height="56" class="box"/><text x="158" y="24" text-anchor="middle" class="blue" font-size="15">Addr+W</text><text x="158" y="44" text-anchor="middle" class="text" font-size="13">0x68</text>
+    <path d="M204 28 H234" class="arrow"/>
+    <rect x="234" y="0" width="86" height="56" class="box"/><text x="277" y="34" text-anchor="middle" class="red" font-size="15">ACK</text>
+    <path d="M320 28 H350" class="arrow"/>
+    <rect x="350" y="0" width="108" height="56" class="box"/><text x="404" y="24" text-anchor="middle" class="blue" font-size="15">Register</text><text x="404" y="44" text-anchor="middle" class="text" font-size="13">WHO_AM_I</text>
+    <path d="M458 28 H488" class="arrow"/>
+    <rect x="488" y="0" width="122" height="56" class="box"/><text x="549" y="24" text-anchor="middle" class="blue" font-size="15">Repeated</text><text x="549" y="44" text-anchor="middle" class="blue" font-size="15">START</text>
+  </g>
+  <g transform="translate(80,160)">
+    <rect x="0" y="0" width="92" height="56" class="box"/><text x="46" y="24" text-anchor="middle" class="blue" font-size="15">Addr+R</text><text x="46" y="44" text-anchor="middle" class="text" font-size="13">0x68</text>
+    <path d="M92 28 H122" class="arrow"/>
+    <rect x="122" y="0" width="86" height="56" class="box"/><text x="165" y="34" text-anchor="middle" class="red" font-size="15">ACK</text>
+    <path d="M208 28 H238" class="arrow"/>
+    <rect x="238" y="0" width="90" height="56" class="box"/><text x="283" y="24" text-anchor="middle" class="blue" font-size="15">Data</text><text x="283" y="44" text-anchor="middle" class="text" font-size="13">0x68</text>
+    <path d="M328 28 H358" class="arrow"/>
+    <rect x="358" y="0" width="86" height="56" class="box"/><text x="401" y="34" text-anchor="middle" class="red" font-size="15">NACK</text>
+    <path d="M444 28 H474" class="arrow"/>
+    <rect x="474" y="0" width="82" height="56" class="box"/><text x="515" y="34" text-anchor="middle" class="blue" font-size="15">STOP</text>
+  </g>
+  <text x="360" y="244" text-anchor="middle" class="red" font-size="16">ACK = 9번째 clock에서 수신자가 SDA를 LOW로 당김</text>
+</svg>

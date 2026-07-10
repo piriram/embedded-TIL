@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .head{fill:#dbeafe;stroke:#93c5fd;stroke-width:2;rx:8}
+  </style>
+  <text x="28" y="36" class="blue" font-size="24">Debug tool selection</text>
+  <rect x="40" y="70" width="290" height="82" class="head"/>
+  <text x="185" y="100" text-anchor="middle" class="blue" font-size="18">SWD/JTAG Debugger</text>
+  <text x="185" y="126" text-anchor="middle" class="text" font-size="15">breakpoint, step, register, memory</text>
+  <rect x="390" y="70" width="290" height="82" class="box"/>
+  <text x="535" y="100" text-anchor="middle" class="blue" font-size="18">UART Log</text>
+  <text x="535" y="126" text-anchor="middle" class="text" font-size="15">state, error code, timestamp</text>
+  <rect x="40" y="190" width="290" height="82" class="box"/>
+  <text x="185" y="220" text-anchor="middle" class="blue" font-size="18">Logic Analyzer</text>
+  <text x="185" y="246" text-anchor="middle" class="text" font-size="15">UART/I2C/SPI/CAN frame decode</text>
+  <rect x="390" y="190" width="290" height="82" class="box"/>
+  <text x="535" y="220" text-anchor="middle" class="blue" font-size="18">Oscilloscope</text>
+  <text x="535" y="246" text-anchor="middle" class="text" font-size="15">voltage, noise, rise/fall, timing</text>
+  <text x="360" y="302" text-anchor="middle" class="red" font-size="16">증상 종류에 맞는 도구를 고른다. 모든 문제를 디버거로만 보지 않는다.</text>
+</svg>

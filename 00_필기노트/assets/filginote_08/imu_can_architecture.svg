@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">STM32F103 IMU-CAN story</text>
+  <rect x="56" y="96" width="170" height="105" class="box"/>
+  <text x="141" y="132" text-anchor="middle" class="blue" font-size="19">MPU6050</text>
+  <text x="141" y="158" text-anchor="middle" class="text" font-size="14">WHO_AM_I 0x68</text>
+  <text x="141" y="178" text-anchor="middle" class="text" font-size="14">accel/gyro sensor</text>
+  <path d="M226 148 H300" class="arrow"/>
+  <text x="263" y="138" text-anchor="middle" class="blue" font-size="15">I2C</text>
+  <rect x="300" y="80" width="180" height="136" class="box"/>
+  <text x="390" y="118" text-anchor="middle" class="blue" font-size="19">STM32F103</text>
+  <text x="390" y="145" text-anchor="middle" class="text" font-size="14">bare-metal</text>
+  <text x="390" y="166" text-anchor="middle" class="text" font-size="14">I2C register flow</text>
+  <text x="390" y="187" text-anchor="middle" class="text" font-size="14">CAN message encode</text>
+  <path d="M480 148 H554" class="arrow"/>
+  <text x="517" y="138" text-anchor="middle" class="blue" font-size="15">CAN</text>
+  <rect x="554" y="96" width="126" height="105" class="box"/>
+  <text x="617" y="132" text-anchor="middle" class="blue" font-size="19">CAN Bus</text>
+  <text x="617" y="158" text-anchor="middle" class="text" font-size="14">ID / DLC</text>
+  <text x="617" y="178" text-anchor="middle" class="text" font-size="14">payload</text>
+  <path d="M390 216 V252 H560" class="arrow"/>
+  <text x="475" y="272" text-anchor="middle" class="red" font-size="16">UART log / logic analyzer / CAN trace로 검증</text>
+</svg>

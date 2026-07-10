@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .bus{stroke:#111827;stroke-width:5}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .term{stroke:#dc2626;stroke-width:4}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">CAN: CAN_H / CAN_L + ID arbitration</text>
+  <line x1="80" y1="120" x2="640" y2="120" class="bus"/>
+  <line x1="80" y1="170" x2="640" y2="170" class="bus"/>
+  <text x="34" y="126" class="blue" font-size="18">CAN_H</text>
+  <text x="34" y="176" class="blue" font-size="18">CAN_L</text>
+  <line x1="80" y1="110" x2="80" y2="180" class="term"/>
+  <line x1="640" y1="110" x2="640" y2="180" class="term"/>
+  <text x="80" y="98" text-anchor="middle" class="red" font-size="15">120 ohm</text>
+  <text x="640" y="98" text-anchor="middle" class="red" font-size="15">120 ohm</text>
+  <rect x="130" y="210" width="125" height="55" class="box"/>
+  <text x="192" y="235" text-anchor="middle" class="blue" font-size="17">Node A</text>
+  <text x="192" y="256" text-anchor="middle" class="text" font-size="14">ID 0x100</text>
+  <rect x="300" y="210" width="125" height="55" class="box"/>
+  <text x="362" y="235" text-anchor="middle" class="blue" font-size="17">Node B</text>
+  <text x="362" y="256" text-anchor="middle" class="text" font-size="14">ID 0x300</text>
+  <rect x="470" y="210" width="125" height="55" class="box"/>
+  <text x="532" y="235" text-anchor="middle" class="blue" font-size="17">Node C</text>
+  <text x="532" y="256" text-anchor="middle" class="text" font-size="14">ID 0x080</text>
+  <line x1="192" y1="210" x2="192" y2="170" class="bus"/>
+  <line x1="362" y1="210" x2="362" y2="170" class="bus"/>
+  <line x1="532" y1="210" x2="532" y2="170" class="bus"/>
+  <text x="360" y="62" text-anchor="middle" class="red" font-size="17">낮은 ID가 arbitration에서 유리함</text>
+</svg>

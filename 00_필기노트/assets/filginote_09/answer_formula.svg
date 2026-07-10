@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">Known question answer formula</text>
+  <g transform="translate(58,88)">
+    <rect x="0" y="0" width="120" height="62" class="box"/>
+    <text x="60" y="26" text-anchor="middle" class="blue" font-size="16">정의</text>
+    <text x="60" y="46" text-anchor="middle" class="text" font-size="13">무엇인가</text>
+    <path d="M120 31 H158" class="arrow"/>
+    <rect x="158" y="0" width="136" height="62" class="box"/>
+    <text x="226" y="26" text-anchor="middle" class="blue" font-size="16">임베디드 의미</text>
+    <text x="226" y="46" text-anchor="middle" class="text" font-size="13">왜 중요한가</text>
+    <path d="M294 31 H332" class="arrow"/>
+    <rect x="332" y="0" width="120" height="62" class="box"/>
+    <text x="392" y="26" text-anchor="middle" class="blue" font-size="16">예시</text>
+    <text x="392" y="46" text-anchor="middle" class="text" font-size="13">STM32/TTA</text>
+    <path d="M452 31 H490" class="arrow"/>
+    <rect x="490" y="0" width="120" height="62" class="box"/>
+    <text x="550" y="26" text-anchor="middle" class="blue" font-size="16">주의점</text>
+    <text x="550" y="46" text-anchor="middle" class="text" font-size="13">오해 방지</text>
+  </g>
+  <text x="360" y="198" text-anchor="middle" class="red" font-size="17">짧게 정의하고, 임베디드 맥락과 실습/검증 예시로 닫는다.</text>
+  <text x="360" y="226" text-anchor="middle" class="text" font-size="15">기술 질문도 마지막에는 "어떻게 확인했는가"로 연결한다.</text>
+</svg>

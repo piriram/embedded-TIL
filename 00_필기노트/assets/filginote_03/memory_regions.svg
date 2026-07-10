@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380">
+  <rect width="960" height="380" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, Arial">
+    <text x="480" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#1d4ed8">MCU 메모리 영역 역할</text>
+    <rect x="70" y="105" width="240" height="150" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <text x="190" y="145" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Flash</text>
+    <text x="190" y="183" text-anchor="middle" font-size="19" fill="#111827">프로그램 코드 저장</text>
+    <text x="190" y="214" text-anchor="middle" font-size="18" fill="#4b5563">전원 OFF 후에도 유지</text>
+    <rect x="360" y="105" width="240" height="150" rx="14" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/>
+    <text x="480" y="145" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">SRAM</text>
+    <text x="480" y="183" text-anchor="middle" font-size="19" fill="#111827">변수 / stack</text>
+    <text x="480" y="214" text-anchor="middle" font-size="18" fill="#4b5563">전원 OFF 시 사라짐</text>
+    <rect x="650" y="105" width="240" height="150" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+    <text x="770" y="145" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Peripheral</text>
+    <text x="770" y="183" text-anchor="middle" font-size="19" fill="#111827">GPIO/UART/Timer 레지스터</text>
+    <text x="770" y="214" text-anchor="middle" font-size="18" fill="#4b5563">하드웨어 상태/설정</text>
+    <text x="480" y="315" text-anchor="middle" font-size="20" font-weight="700" fill="#dc2626">핵심: 모두 주소로 접근하지만 의미는 코드, 데이터, 하드웨어로 다르다</text>
+  </g>
+</svg>

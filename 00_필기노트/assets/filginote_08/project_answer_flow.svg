@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">Mini project interview flow</text>
+  <g transform="translate(35,82)">
+    <rect x="0" y="0" width="105" height="62" class="box"/>
+    <text x="52" y="26" text-anchor="middle" class="blue" font-size="16">목표</text>
+    <text x="52" y="46" text-anchor="middle" class="text" font-size="13">왜 만들었나</text>
+    <path d="M105 31 H132" class="arrow"/>
+    <rect x="132" y="0" width="118" height="62" class="box"/>
+    <text x="191" y="26" text-anchor="middle" class="blue" font-size="16">주변장치</text>
+    <text x="191" y="46" text-anchor="middle" class="text" font-size="13">핀/프로토콜</text>
+    <path d="M250 31 H277" class="arrow"/>
+    <rect x="277" y="0" width="105" height="62" class="box"/>
+    <text x="329" y="26" text-anchor="middle" class="blue" font-size="16">구현</text>
+    <text x="329" y="46" text-anchor="middle" class="text" font-size="13">핵심 흐름</text>
+    <path d="M382 31 H409" class="arrow"/>
+    <rect x="409" y="0" width="105" height="62" class="box"/>
+    <text x="461" y="26" text-anchor="middle" class="blue" font-size="16">막힌 점</text>
+    <text x="461" y="46" text-anchor="middle" class="text" font-size="13">함정/원인</text>
+    <path d="M514 31 H541" class="arrow"/>
+    <rect x="541" y="0" width="120" height="62" class="box"/>
+    <text x="601" y="26" text-anchor="middle" class="blue" font-size="16">검증</text>
+    <text x="601" y="46" text-anchor="middle" class="text" font-size="13">로그/파형</text>
+  </g>
+  <text x="360" y="198" text-anchor="middle" class="red" font-size="17">작은 프로젝트도 목표-구현-문제-검증-배운 점으로 말하면 포트폴리오가 된다.</text>
+  <text x="360" y="228" text-anchor="middle" class="text" font-size="15">기능 나열보다 "어떤 위험을 어떻게 확인했는가"를 말한다.</text>
+</svg>

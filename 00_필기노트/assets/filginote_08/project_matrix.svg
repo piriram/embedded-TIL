@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340">
+  <rect width="720" height="340" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .head{fill:#dbeafe;stroke:#93c5fd;stroke-width:1.5}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">Mini project map</text>
+  <g transform="translate(28,58)">
+    <rect x="0" y="0" width="118" height="38" class="head"/><text x="59" y="25" text-anchor="middle" class="blue" font-size="14">프로젝트</text>
+    <rect x="118" y="0" width="152" height="38" class="head"/><text x="194" y="25" text-anchor="middle" class="blue" font-size="14">핵심 주변장치</text>
+    <rect x="270" y="0" width="205" height="38" class="head"/><text x="372" y="25" text-anchor="middle" class="blue" font-size="14">말할 포인트</text>
+    <rect x="475" y="0" width="205" height="38" class="head"/><text x="577" y="25" text-anchor="middle" class="blue" font-size="14">검증</text>
+    <rect x="0" y="38" width="118" height="40" class="cell"/><text x="59" y="63" text-anchor="middle" class="text" font-size="13">GPIO blink</text>
+    <rect x="118" y="38" width="152" height="40" class="cell"/><text x="194" y="63" text-anchor="middle" class="text" font-size="13">GPIO PC13</text>
+    <rect x="270" y="38" width="205" height="40" class="cell"/><text x="372" y="63" text-anchor="middle" class="text" font-size="13">RCC, active-low</text>
+    <rect x="475" y="38" width="205" height="40" class="cell"/><text x="577" y="63" text-anchor="middle" class="text" font-size="13">LED 주기 관찰</text>
+    <rect x="0" y="78" width="118" height="40" class="cell"/><text x="59" y="103" text-anchor="middle" class="text" font-size="13">Button/EXTI</text>
+    <rect x="118" y="78" width="152" height="40" class="cell"/><text x="194" y="103" text-anchor="middle" class="text" font-size="13">GPIO, EXTI</text>
+    <rect x="270" y="78" width="205" height="40" class="cell"/><text x="372" y="103" text-anchor="middle" class="text" font-size="13">debounce, ISR 짧게</text>
+    <rect x="475" y="78" width="205" height="40" class="cell"/><text x="577" y="103" text-anchor="middle" class="text" font-size="13">1회 누름=1회 toggle</text>
+    <rect x="0" y="118" width="118" height="40" class="cell"/><text x="59" y="143" text-anchor="middle" class="text" font-size="13">UART echo</text>
+    <rect x="118" y="118" width="152" height="40" class="cell"/><text x="194" y="143" text-anchor="middle" class="text" font-size="13">USART1, AF</text>
+    <rect x="270" y="118" width="205" height="40" class="cell"/><text x="372" y="143" text-anchor="middle" class="text" font-size="13">115200 8N1, TX/RX</text>
+    <rect x="475" y="118" width="205" height="40" class="cell"/><text x="577" y="143" text-anchor="middle" class="text" font-size="13">터미널 echo</text>
+    <rect x="0" y="158" width="118" height="40" class="cell"/><text x="59" y="183" text-anchor="middle" class="text" font-size="13">I2C scanner</text>
+    <rect x="118" y="158" width="152" height="40" class="cell"/><text x="194" y="183" text-anchor="middle" class="text" font-size="13">I2C1 PB6/PB7</text>
+    <rect x="270" y="158" width="205" height="40" class="cell"/><text x="372" y="183" text-anchor="middle" class="text" font-size="13">7-bit addr, pull-up</text>
+    <rect x="475" y="158" width="205" height="40" class="cell"/><text x="577" y="183" text-anchor="middle" class="text" font-size="13">ACK 주소 출력</text>
+    <rect x="0" y="198" width="118" height="40" class="cell"/><text x="59" y="223" text-anchor="middle" class="text" font-size="13">MPU6050</text>
+    <rect x="118" y="198" width="152" height="40" class="cell"/><text x="194" y="223" text-anchor="middle" class="text" font-size="13">I2C register</text>
+    <rect x="270" y="198" width="205" height="40" class="cell"/><text x="372" y="223" text-anchor="middle" class="text" font-size="13">WHO_AM_I 0x75</text>
+    <rect x="475" y="198" width="205" height="40" class="cell"/><text x="577" y="223" text-anchor="middle" class="text" font-size="13">0x68 + logic capture</text>
+    <rect x="0" y="238" width="118" height="40" class="cell"/><text x="59" y="263" text-anchor="middle" class="text" font-size="13">CAN loopback</text>
+    <rect x="118" y="238" width="152" height="40" class="cell"/><text x="194" y="263" text-anchor="middle" class="text" font-size="13">bxCAN PB8/PB9</text>
+    <rect x="270" y="238" width="205" height="40" class="cell"/><text x="372" y="263" text-anchor="middle" class="text" font-size="13">ID, DLC, filter</text>
+    <rect x="475" y="238" width="205" height="40" class="cell"/><text x="577" y="263" text-anchor="middle" class="text" font-size="13">TX=RX loopback</text>
+  </g>
+  <text x="360" y="322" text-anchor="middle" class="red" font-size="15">각 프로젝트는 주변장치 하나와 검증 증거 하나를 반드시 연결한다.</text>
+</svg>

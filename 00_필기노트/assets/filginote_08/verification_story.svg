@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">Verification story</text>
+  <g transform="translate(46,84)">
+    <rect x="0" y="0" width="132" height="62" class="box"/>
+    <text x="66" y="25" text-anchor="middle" class="blue" font-size="16">정상 동작</text>
+    <text x="66" y="45" text-anchor="middle" class="text" font-size="13">값/LED/echo</text>
+    <path d="M132 31 H166" class="arrow"/>
+    <rect x="166" y="0" width="132" height="62" class="box"/>
+    <text x="232" y="25" text-anchor="middle" class="blue" font-size="16">실패 조건</text>
+    <text x="232" y="45" text-anchor="middle" class="text" font-size="13">NACK/timeout</text>
+    <path d="M298 31 H332" class="arrow"/>
+    <rect x="332" y="0" width="132" height="62" class="box"/>
+    <text x="398" y="25" text-anchor="middle" class="blue" font-size="16">관측 증거</text>
+    <text x="398" y="45" text-anchor="middle" class="text" font-size="13">log/capture</text>
+    <path d="M464 31 H498" class="arrow"/>
+    <rect x="498" y="0" width="132" height="62" class="box"/>
+    <text x="564" y="25" text-anchor="middle" class="blue" font-size="16">개선점</text>
+    <text x="564" y="45" text-anchor="middle" class="text" font-size="13">timeout/DMA/RTOS</text>
+  </g>
+  <text x="360" y="190" text-anchor="middle" class="red" font-size="17">면접에서는 "성공했다"보다 정상/실패/증거/개선점을 함께 말한다.</text>
+  <text x="360" y="222" text-anchor="middle" class="text" font-size="15">QA 경험은 실패 조건을 먼저 설계하는 습관으로 연결한다.</text>
+</svg>

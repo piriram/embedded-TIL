@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .head{fill:#dbeafe;stroke:#93c5fd;stroke-width:1.5}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">12 answer cards</text>
+  <g transform="translate(36,58)">
+    <rect x="0" y="0" width="160" height="38" class="head"/><text x="80" y="25" text-anchor="middle" class="blue" font-size="14">개인/동기</text>
+    <rect x="160" y="0" width="250" height="38" class="head"/><text x="285" y="25" text-anchor="middle" class="blue" font-size="14">기술 설명</text>
+    <rect x="410" y="0" width="250" height="38" class="head"/><text x="535" y="25" text-anchor="middle" class="blue" font-size="14">경험/방어</text>
+    <rect x="0" y="38" width="160" height="52" class="cell"/><text x="80" y="60" text-anchor="middle" class="text" font-size="13">1 자기소개</text><text x="80" y="78" text-anchor="middle" class="text" font-size="13">2 왜 임베디드</text>
+    <rect x="160" y="38" width="250" height="52" class="cell"/><text x="285" y="60" text-anchor="middle" class="text" font-size="13">3 C 수준, 4 GPIO</text><text x="285" y="78" text-anchor="middle" class="text" font-size="13">5 UART, 6 Interrupt</text>
+    <rect x="410" y="38" width="250" height="52" class="cell"/><text x="535" y="60" text-anchor="middle" class="text" font-size="13">11 TTA 연결</text><text x="535" y="78" text-anchor="middle" class="text" font-size="13">12 모르는 질문</text>
+    <rect x="0" y="90" width="160" height="52" class="cell"/><text x="80" y="116" text-anchor="middle" class="text" font-size="13">포지셔닝</text>
+    <rect x="160" y="90" width="250" height="52" class="cell"/><text x="285" y="112" text-anchor="middle" class="text" font-size="13">7 volatile, 8 I2C</text><text x="285" y="130" text-anchor="middle" class="text" font-size="13">9 SPI vs I2C, 10 CAN</text>
+    <rect x="410" y="90" width="250" height="52" class="cell"/><text x="535" y="116" text-anchor="middle" class="text" font-size="13">검증 가능한 펌웨어 신입</text>
+  </g>
+  <text x="360" y="246" text-anchor="middle" class="red" font-size="17">각 답변은 30초 안에 끝내고, 필요하면 꼬리질문에서 확장한다.</text>
+  <text x="360" y="276" text-anchor="middle" class="text" font-size="15">아는 질문: 정의-의미-예시-주의점 / 모르는 질문: 인정-경험-확인-계획</text>
+</svg>

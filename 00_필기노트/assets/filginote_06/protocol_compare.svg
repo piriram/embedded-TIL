@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .head{fill:#dbeafe;stroke:#93c5fd;stroke-width:1.5}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">I2C / SPI / CAN 선택 기준</text>
+  <g transform="translate(35,64)">
+    <rect x="0" y="0" width="150" height="42" class="head"/><text x="75" y="27" text-anchor="middle" class="blue" font-size="16">구분</text>
+    <rect x="150" y="0" width="170" height="42" class="head"/><text x="235" y="27" text-anchor="middle" class="blue" font-size="16">I2C</text>
+    <rect x="320" y="0" width="170" height="42" class="head"/><text x="405" y="27" text-anchor="middle" class="blue" font-size="16">SPI</text>
+    <rect x="490" y="0" width="170" height="42" class="head"/><text x="575" y="27" text-anchor="middle" class="blue" font-size="16">CAN</text>
+    <rect x="0" y="42" width="150" height="50" class="cell"/><text x="75" y="73" text-anchor="middle" class="text" font-size="15">선</text>
+    <rect x="150" y="42" width="170" height="50" class="cell"/><text x="235" y="73" text-anchor="middle" class="text" font-size="14">SDA/SCL 2선</text>
+    <rect x="320" y="42" width="170" height="50" class="cell"/><text x="405" y="73" text-anchor="middle" class="text" font-size="14">MOSI/MISO/SCLK/CS</text>
+    <rect x="490" y="42" width="170" height="50" class="cell"/><text x="575" y="73" text-anchor="middle" class="text" font-size="14">CAN_H/CAN_L</text>
+    <rect x="0" y="92" width="150" height="50" class="cell"/><text x="75" y="123" text-anchor="middle" class="text" font-size="15">장치 선택</text>
+    <rect x="150" y="92" width="170" height="50" class="cell"/><text x="235" y="123" text-anchor="middle" class="text" font-size="14">주소</text>
+    <rect x="320" y="92" width="170" height="50" class="cell"/><text x="405" y="123" text-anchor="middle" class="text" font-size="14">CS 핀</text>
+    <rect x="490" y="92" width="170" height="50" class="cell"/><text x="575" y="123" text-anchor="middle" class="text" font-size="14">메시지 ID</text>
+    <rect x="0" y="142" width="150" height="50" class="cell"/><text x="75" y="173" text-anchor="middle" class="text" font-size="15">강점</text>
+    <rect x="150" y="142" width="170" height="50" class="cell"/><text x="235" y="173" text-anchor="middle" class="text" font-size="14">배선 적음</text>
+    <rect x="320" y="142" width="170" height="50" class="cell"/><text x="405" y="173" text-anchor="middle" class="text" font-size="14">고속/단순</text>
+    <rect x="490" y="142" width="170" height="50" class="cell"/><text x="575" y="173" text-anchor="middle" class="text" font-size="14">견고/재전송</text>
+    <rect x="0" y="192" width="150" height="50" class="cell"/><text x="75" y="223" text-anchor="middle" class="text" font-size="15">주의</text>
+    <rect x="150" y="192" width="170" height="50" class="cell"/><text x="235" y="223" text-anchor="middle" class="red" font-size="14">pull-up/ACK</text>
+    <rect x="320" y="192" width="170" height="50" class="cell"/><text x="405" y="223" text-anchor="middle" class="red" font-size="14">CPOL/CPHA</text>
+    <rect x="490" y="192" width="170" height="50" class="cell"/><text x="575" y="223" text-anchor="middle" class="red" font-size="14">종단/bus-off</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="34" class="blue" font-size="24">Timer count flow</text>
+  <rect x="36" y="70" width="130" height="72" class="box"/>
+  <text x="101" y="100" text-anchor="middle" class="blue" font-size="18">Timer clock</text>
+  <text x="101" y="124" text-anchor="middle" class="text" font-size="15">예: 216 MHz</text>
+  <path d="M166 106 H226" class="arrow"/>
+  <rect x="226" y="70" width="130" height="72" class="box"/>
+  <text x="291" y="100" text-anchor="middle" class="blue" font-size="18">PSC</text>
+  <text x="291" y="124" text-anchor="middle" class="text" font-size="15">분주</text>
+  <path d="M356 106 H416" class="arrow"/>
+  <rect x="416" y="70" width="130" height="72" class="box"/>
+  <text x="481" y="100" text-anchor="middle" class="blue" font-size="18">Counter</text>
+  <text x="481" y="124" text-anchor="middle" class="text" font-size="15">0,1,2,...</text>
+  <path d="M546 106 H606" class="arrow"/>
+  <rect x="606" y="70" width="84" height="72" class="box"/>
+  <text x="648" y="100" text-anchor="middle" class="blue" font-size="18">ARR</text>
+  <text x="648" y="124" text-anchor="middle" class="text" font-size="15">최댓값</text>
+  <path d="M648 142 C648 188 480 206 366 202 C250 198 98 176 98 145" class="arrow"/>
+  <text x="360" y="188" text-anchor="middle" class="red" font-size="18">ARR 도달 → Update Event → 0부터 반복</text>
+  <text x="360" y="232" text-anchor="middle" class="text" font-size="16">주기 = (PSC+1) × (ARR+1) / timer_clk</text>
+</svg>

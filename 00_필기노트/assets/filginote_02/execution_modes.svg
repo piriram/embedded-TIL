@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430">
+  <rect width="960" height="430" fill="#ffffff"/>
+  <text x="480" y="38" text-anchor="middle" font-family="Apple SD Gothic Neo, Noto Sans KR, Arial" font-size="26" font-weight="700" fill="#1d4ed8">임베디드 실행 방식 비교</text>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, Arial">
+    <rect x="45" y="80" width="270" height="265" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <text x="180" y="118" text-anchor="middle" font-size="23" font-weight="700" fill="#111827">Bare-metal</text>
+    <text x="180" y="158" text-anchor="middle" font-size="18" fill="#111827">main loop + interrupt</text>
+    <text x="180" y="198" text-anchor="middle" font-size="17" fill="#4b5563">구조 단순</text>
+    <text x="180" y="226" text-anchor="middle" font-size="17" fill="#4b5563">자원 사용 작음</text>
+    <text x="180" y="254" text-anchor="middle" font-size="17" fill="#4b5563">작은 MCU에 적합</text>
+    <text x="180" y="304" text-anchor="middle" font-size="17" fill="#dc2626">흐름을 직접 관리</text>
+
+    <rect x="345" y="80" width="270" height="265" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="480" y="118" text-anchor="middle" font-size="23" font-weight="700" fill="#111827">RTOS</text>
+    <text x="480" y="158" text-anchor="middle" font-size="18" fill="#111827">task + scheduler</text>
+    <text x="480" y="198" text-anchor="middle" font-size="17" fill="#4b5563">여러 작업 분리</text>
+    <text x="480" y="226" text-anchor="middle" font-size="17" fill="#4b5563">우선순위 관리</text>
+    <text x="480" y="254" text-anchor="middle" font-size="17" fill="#4b5563">중간 복잡도</text>
+    <text x="480" y="304" text-anchor="middle" font-size="17" fill="#dc2626">동기화 설계 필요</text>
+
+    <rect x="645" y="80" width="270" height="265" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+    <text x="780" y="118" text-anchor="middle" font-size="23" font-weight="700" fill="#111827">Embedded Linux</text>
+    <text x="780" y="158" text-anchor="middle" font-size="18" fill="#111827">process + driver</text>
+    <text x="780" y="198" text-anchor="middle" font-size="17" fill="#4b5563">네트워크 / 파일시스템</text>
+    <text x="780" y="226" text-anchor="middle" font-size="17" fill="#4b5563">풍부한 기능</text>
+    <text x="780" y="254" text-anchor="middle" font-size="17" fill="#4b5563">큰 자원 필요</text>
+    <text x="780" y="304" text-anchor="middle" font-size="17" fill="#dc2626">MCU 펌웨어와 층이 다름</text>
+    <text x="480" y="390" text-anchor="middle" font-size="19" fill="#111827">단순 제어 → 여러 task → 큰 운영체제 순서로 복잡도가 커진다</text>
+  </g>
+</svg>

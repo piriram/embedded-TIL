@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">Bug reproduction report</text>
+  <g transform="translate(35,74)">
+    <rect x="0" y="0" width="110" height="58" class="box"/><text x="55" y="34" text-anchor="middle" class="blue" font-size="15">환경</text>
+    <path d="M110 29 H142" class="arrow"/>
+    <rect x="142" y="0" width="110" height="58" class="box"/><text x="197" y="34" text-anchor="middle" class="blue" font-size="15">절차</text>
+    <path d="M252 29 H284" class="arrow"/>
+    <rect x="284" y="0" width="110" height="58" class="box"/><text x="339" y="34" text-anchor="middle" class="blue" font-size="15">입력</text>
+    <path d="M394 29 H426" class="arrow"/>
+    <rect x="426" y="0" width="110" height="58" class="box"/><text x="481" y="25" text-anchor="middle" class="blue" font-size="15">기대</text><text x="481" y="44" text-anchor="middle" class="blue" font-size="15">결과</text>
+    <path d="M536 29 H568" class="arrow"/>
+    <rect x="568" y="0" width="110" height="58" class="box"/><text x="623" y="25" text-anchor="middle" class="blue" font-size="15">실제</text><text x="623" y="44" text-anchor="middle" class="blue" font-size="15">결과</text>
+  </g>
+  <rect x="74" y="180" width="180" height="54" class="box"/>
+  <text x="164" y="204" text-anchor="middle" class="text" font-size="15">재현 빈도</text>
+  <text x="164" y="224" text-anchor="middle" class="text" font-size="14">10/100, 특정 조건</text>
+  <rect x="270" y="180" width="180" height="54" class="box"/>
+  <text x="360" y="204" text-anchor="middle" class="text" font-size="15">로그/덤프</text>
+  <text x="360" y="224" text-anchor="middle" class="text" font-size="14">timestamp, error code</text>
+  <rect x="466" y="180" width="180" height="54" class="box"/>
+  <text x="556" y="204" text-anchor="middle" class="text" font-size="15">최소 재현</text>
+  <text x="556" y="224" text-anchor="middle" class="text" font-size="14">조건 줄이기</text>
+  <text x="360" y="278" text-anchor="middle" class="red" font-size="16">"안 됩니다"가 아니라 재현 가능한 조건과 관찰 증거로 말한다.</text>
+</svg>

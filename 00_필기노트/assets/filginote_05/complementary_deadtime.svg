@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .wave{stroke:#111827;stroke-width:4;fill:none}
+    .dead{fill:#fee2e2;stroke:#dc2626;stroke-width:1}
+    .axis{stroke:#94a3b8;stroke-width:2}
+  </style>
+  <text x="28" y="34" class="blue" font-size="24">Complementary PWM + Dead Time</text>
+  <text x="50" y="94" class="blue" font-size="18">High-side</text>
+  <polyline points="160,120 210,120 210,75 330,75 330,120 510,120 510,75 630,75" class="wave"/>
+  <text x="50" y="204" class="blue" font-size="18">Low-side</text>
+  <polyline points="160,230 250,230 250,185 370,185 370,230 550,230 550,185 630,185" class="wave"/>
+  <rect x="330" y="70" width="40" height="170" class="dead"/>
+  <rect x="510" y="70" width="40" height="170" class="dead"/>
+  <text x="350" y="260" text-anchor="middle" class="red" font-size="15">Dead time</text>
+  <text x="530" y="260" text-anchor="middle" class="red" font-size="15">Dead time</text>
+  <line x1="160" y1="120" x2="650" y2="120" class="axis"/>
+  <line x1="160" y1="230" x2="650" y2="230" class="axis"/>
+  <text x="360" y="286" text-anchor="middle" class="text" font-size="16">상하 스위치가 동시에 ON되지 않게 둘 다 OFF인 짧은 구간을 둔다</text>
+</svg>

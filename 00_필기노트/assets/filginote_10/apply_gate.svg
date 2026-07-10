@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260">
+  <style>
+    .box{fill:#f8fafc;stroke:#1d4ed8;stroke-width:2;rx:10}
+    .ok{fill:#ecfdf5;stroke:#16a34a;stroke-width:2;rx:10}
+    .warn{fill:#fff7ed;stroke:#dc2626;stroke-width:2;rx:10}
+    .text{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#111827;font-size:15px}
+    .title{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#1d4ed8;font-size:18px;font-weight:700}
+    .red{fill:#dc2626;font-weight:700}
+    .green{fill:#15803d;font-weight:700}
+    .line{stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect x="24" y="24" width="180" height="190" class="box"/>
+  <text x="114" y="55" text-anchor="middle" class="title">최소 학습선</text>
+  <text x="44" y="90" class="text">25/39 페이지</text>
+  <text x="44" y="120" class="text">GPIO/UART/INT</text>
+  <text x="44" y="150" class="text">포인터/volatile/bit</text>
+  <text x="44" y="180" class="text">I2C 기본 설명</text>
+  <line x1="210" y1="118" x2="272" y2="118" class="line"/>
+  <rect x="286" y="24" width="190" height="190" class="ok"/>
+  <text x="381" y="55" text-anchor="middle" class="title">지원 가능</text>
+  <text x="306" y="95" class="text">자기소개 30초</text>
+  <text x="306" y="125" class="text">모르는 질문 공식</text>
+  <text x="306" y="155" class="text">프로젝트 1개 설명</text>
+  <text x="306" y="185" class="text green">100% 완주 전 시작</text>
+  <line x1="482" y1="118" x2="544" y2="118" class="line"/>
+  <rect x="558" y="24" width="178" height="190" class="warn"/>
+  <text x="647" y="55" text-anchor="middle" class="title">금지 기준</text>
+  <text x="578" y="95" class="text">C/C++ 능숙 과장</text>
+  <text x="578" y="125" class="text">AUTOSAR 경험 주장</text>
+  <text x="578" y="155" class="text">양산 경험 보유</text>
+  <text x="578" y="185" class="text red">없는 경험 포장</text>
+  <text x="380" y="242" text-anchor="middle" class="text">지원 시작 = 완성 선언이 아니라, 최소 근거를 들고 시장 피드백을 받는 단계</text>
+</svg>

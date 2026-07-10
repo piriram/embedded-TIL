@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250">
+  <style>
+    .step{fill:#f8fafc;stroke:#1d4ed8;stroke-width:2;rx:10}
+    .drop{fill:#fef2f2;stroke:#dc2626;stroke-width:2;rx:10}
+    .text{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#111827;font-size:14px}
+    .title{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#1d4ed8;font-size:17px;font-weight:700}
+    .red{fill:#dc2626;font-weight:700}
+    .line{stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect x="20" y="54" width="130" height="84" class="step"/>
+  <text x="85" y="84" text-anchor="middle" class="title">JD 읽기</text>
+  <text x="85" y="110" text-anchor="middle" class="text">업무/필수/우대</text>
+  <line x1="154" y1="96" x2="200" y2="96" class="line"/>
+  <rect x="206" y="54" width="130" height="84" class="step"/>
+  <text x="271" y="84" text-anchor="middle" class="title">연결 찾기</text>
+  <text x="271" y="110" text-anchor="middle" class="text">TTA/STM32/iOS</text>
+  <line x1="340" y1="96" x2="386" y2="96" class="line"/>
+  <rect x="392" y="54" width="130" height="84" class="step"/>
+  <text x="457" y="84" text-anchor="middle" class="title">갭 표시</text>
+  <text x="457" y="110" text-anchor="middle" class="text">미보유는 명시</text>
+  <line x1="526" y1="96" x2="572" y2="96" class="line"/>
+  <rect x="578" y="54" width="150" height="84" class="step"/>
+  <text x="653" y="84" text-anchor="middle" class="title">지원 문장화</text>
+  <text x="653" y="110" text-anchor="middle" class="text">강점 + 보완계획</text>
+  <rect x="206" y="166" width="316" height="56" class="drop"/>
+  <text x="364" y="198" text-anchor="middle" class="text red">C/C++ 능숙, AUTOSAR 개발, 양산 경험 요구가 핵심이면 보류</text>
+  <line x1="457" y1="138" x2="457" y2="166" class="line"/>
+  <text x="380" y="234" text-anchor="middle" class="text">선별 기준: 붙을 수 있는 공고가 아니라, 사실 기반으로 설명 가능한 공고</text>
+</svg>

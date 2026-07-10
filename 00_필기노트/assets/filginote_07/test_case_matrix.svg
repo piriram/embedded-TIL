@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .head{fill:#dbeafe;stroke:#93c5fd;stroke-width:1.5}
+  </style>
+  <text x="28" y="36" class="blue" font-size="24">Test case structure</text>
+  <g transform="translate(35,64)">
+    <rect x="0" y="0" width="128" height="42" class="head"/><text x="64" y="27" text-anchor="middle" class="blue" font-size="15">케이스</text>
+    <rect x="128" y="0" width="150" height="42" class="head"/><text x="203" y="27" text-anchor="middle" class="blue" font-size="15">입력 조건</text>
+    <rect x="278" y="0" width="150" height="42" class="head"/><text x="353" y="27" text-anchor="middle" class="blue" font-size="15">기대 결과</text>
+    <rect x="428" y="0" width="150" height="42" class="head"/><text x="503" y="27" text-anchor="middle" class="blue" font-size="15">관측 수단</text>
+    <rect x="578" y="0" width="90" height="42" class="head"/><text x="623" y="27" text-anchor="middle" class="blue" font-size="15">상태</text>
+    <rect x="0" y="42" width="128" height="48" class="cell"/><text x="64" y="72" text-anchor="middle" class="text" font-size="14">정상 read</text>
+    <rect x="128" y="42" width="150" height="48" class="cell"/><text x="203" y="72" text-anchor="middle" class="text" font-size="14">0x68, pull-up</text>
+    <rect x="278" y="42" width="150" height="48" class="cell"/><text x="353" y="72" text-anchor="middle" class="text" font-size="14">WHO_AM_I=0x68</text>
+    <rect x="428" y="42" width="150" height="48" class="cell"/><text x="503" y="72" text-anchor="middle" class="text" font-size="14">UART + LA</text>
+    <rect x="578" y="42" width="90" height="48" class="cell"/><text x="623" y="72" text-anchor="middle" class="text" font-size="14">pass</text>
+    <rect x="0" y="90" width="128" height="48" class="cell"/><text x="64" y="120" text-anchor="middle" class="text" font-size="14">NACK</text>
+    <rect x="128" y="90" width="150" height="48" class="cell"/><text x="203" y="120" text-anchor="middle" class="text" font-size="14">잘못된 주소</text>
+    <rect x="278" y="90" width="150" height="48" class="cell"/><text x="353" y="120" text-anchor="middle" class="text" font-size="14">timeout/error</text>
+    <rect x="428" y="90" width="150" height="48" class="cell"/><text x="503" y="120" text-anchor="middle" class="text" font-size="14">log + ACK</text>
+    <rect x="578" y="90" width="90" height="48" class="cell"/><text x="623" y="120" text-anchor="middle" class="text" font-size="14">check</text>
+    <rect x="0" y="138" width="128" height="48" class="cell"/><text x="64" y="168" text-anchor="middle" class="text" font-size="14">풀업 누락</text>
+    <rect x="128" y="138" width="150" height="48" class="cell"/><text x="203" y="168" text-anchor="middle" class="text" font-size="14">4.7k 제거</text>
+    <rect x="278" y="138" width="150" height="48" class="cell"/><text x="353" y="168" text-anchor="middle" class="text" font-size="14">SDA/SCL stuck</text>
+    <rect x="428" y="138" width="150" height="48" class="cell"/><text x="503" y="168" text-anchor="middle" class="text" font-size="14">scope/LA</text>
+    <rect x="578" y="138" width="90" height="48" class="cell"/><text x="623" y="168" text-anchor="middle" class="text" font-size="14">check</text>
+  </g>
+  <text x="360" y="286" text-anchor="middle" class="red" font-size="16">테스트는 "한 번 실행"이 아니라 입력 조건, 기대 결과, 관측 수단의 묶음이다.</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="480" y="38" text-anchor="middle" font-family="Apple SD Gothic Neo, Noto Sans KR, Arial" font-size="26" font-weight="700" fill="#1d4ed8">Datasheet vs Reference Manual</text>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, Arial">
+    <rect x="90" y="85" width="350" height="230" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <text x="265" y="125" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Datasheet</text>
+    <text x="265" y="168" text-anchor="middle" font-size="18" fill="#111827">이 칩의 조건을 확인</text>
+    <text x="265" y="208" text-anchor="middle" font-size="17" fill="#4b5563">핀 배치</text>
+    <text x="265" y="236" text-anchor="middle" font-size="17" fill="#4b5563">전압 / 전류</text>
+    <text x="265" y="264" text-anchor="middle" font-size="17" fill="#4b5563">패키지 / 성능 조건</text>
+
+    <rect x="520" y="85" width="350" height="230" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="695" y="125" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Reference Manual</text>
+    <text x="695" y="168" text-anchor="middle" font-size="18" fill="#111827">내부 기능 제어법 확인</text>
+    <text x="695" y="208" text-anchor="middle" font-size="17" fill="#4b5563">레지스터</text>
+    <text x="695" y="236" text-anchor="middle" font-size="17" fill="#4b5563">비트 의미</text>
+    <text x="695" y="264" text-anchor="middle" font-size="17" fill="#4b5563">동작 순서 / 상태 플래그</text>
+
+    <text x="480" y="360" text-anchor="middle" font-size="19" fill="#dc2626">부품 선택은 Datasheet, 펌웨어 제어는 Reference Manual을 본다</text>
+  </g>
+</svg>

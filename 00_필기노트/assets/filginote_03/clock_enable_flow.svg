@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, Arial">
+    <text x="480" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#1d4ed8">주변장치 사용 전 클럭 enable</text>
+    <rect x="60" y="120" width="170" height="100" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <text x="145" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">RCC</text>
+    <text x="145" y="190" text-anchor="middle" font-size="18" fill="#4b5563">Clock ON</text>
+    <rect x="295" y="120" width="170" height="100" rx="12" fill="#f8fafc" stroke="#111827" stroke-width="3"/>
+    <text x="380" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">GPIO</text>
+    <text x="380" y="190" text-anchor="middle" font-size="18" fill="#4b5563">레지스터 접근</text>
+    <rect x="530" y="120" width="170" height="100" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/>
+    <text x="615" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">핀 모드 설정</text>
+    <text x="615" y="190" text-anchor="middle" font-size="18" fill="#4b5563">Input / Output</text>
+    <rect x="765" y="120" width="135" height="100" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+    <text x="832" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">출력 제어</text>
+    <text x="832" y="190" text-anchor="middle" font-size="18" fill="#4b5563">HIGH / LOW</text>
+    <line x1="240" y1="170" x2="285" y2="170" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="475" y1="170" x2="520" y2="170" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="710" y1="170" x2="755" y2="170" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="480" y="285" text-anchor="middle" font-size="20" font-weight="700" fill="#dc2626">핵심: 클럭이 꺼져 있으면 설정을 해도 주변장치가 동작하지 않을 수 있다</text>
+  </g>
+</svg>

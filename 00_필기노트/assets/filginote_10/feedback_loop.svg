@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270">
+  <style>
+    .node{fill:#f8fafc;stroke:#1d4ed8;stroke-width:2;rx:12}
+    .text{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#111827;font-size:15px}
+    .title{font-family:Arial,'Apple SD Gothic Neo',sans-serif;fill:#1d4ed8;font-size:17px;font-weight:700}
+    .red{fill:#dc2626;font-weight:700}
+    .line{stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect x="300" y="24" width="160" height="62" class="node"/>
+  <text x="380" y="50" text-anchor="middle" class="title">지원</text>
+  <text x="380" y="72" text-anchor="middle" class="text">JD 맞춤 제출</text>
+  <rect x="536" y="104" width="170" height="62" class="node"/>
+  <text x="621" y="130" text-anchor="middle" class="title">기록</text>
+  <text x="621" y="152" text-anchor="middle" class="text">공고/문장/질문</text>
+  <rect x="300" y="184" width="160" height="62" class="node"/>
+  <text x="380" y="210" text-anchor="middle" class="title">보강</text>
+  <text x="380" y="232" text-anchor="middle" class="text">노트/답변/증거</text>
+  <rect x="54" y="104" width="170" height="62" class="node"/>
+  <text x="139" y="130" text-anchor="middle" class="title">면접/피드백</text>
+  <text x="139" y="152" text-anchor="middle" class="text">막힌 질문 회수</text>
+  <line x1="460" y1="55" x2="536" y2="116" class="line"/>
+  <line x1="621" y1="166" x2="460" y2="204" class="line"/>
+  <line x1="300" y1="215" x2="224" y2="154" class="line"/>
+  <line x1="139" y1="104" x2="300" y2="66" class="line"/>
+  <text x="380" y="135" text-anchor="middle" class="text red">지원은 공부 종료가 아니라 피드백 수집 루프</text>
+</svg>

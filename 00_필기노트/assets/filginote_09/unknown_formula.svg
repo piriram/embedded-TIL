@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <style>
+    .blue{fill:#1d4ed8;font-family:Arial, sans-serif;font-weight:700}
+    .text{fill:#111827;font-family:Arial, sans-serif}
+    .red{fill:#dc2626;font-family:Arial, sans-serif;font-weight:700}
+    .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:2;rx:8}
+    .arrow{stroke:#1d4ed8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <text x="28" y="36" class="blue" font-size="24">Unknown question answer formula</text>
+  <g transform="translate(58,88)">
+    <rect x="0" y="0" width="120" height="62" class="box"/>
+    <text x="60" y="26" text-anchor="middle" class="blue" font-size="16">인정</text>
+    <text x="60" y="46" text-anchor="middle" class="text" font-size="13">모른다</text>
+    <path d="M120 31 H158" class="arrow"/>
+    <rect x="158" y="0" width="120" height="62" class="box"/>
+    <text x="218" y="26" text-anchor="middle" class="blue" font-size="16">연결 경험</text>
+    <text x="218" y="46" text-anchor="middle" class="text" font-size="13">TTA/STM32</text>
+    <path d="M278 31 H316" class="arrow"/>
+    <rect x="316" y="0" width="140" height="62" class="box"/>
+    <text x="386" y="26" text-anchor="middle" class="blue" font-size="16">확인 방법</text>
+    <text x="386" y="46" text-anchor="middle" class="text" font-size="13">RM/log/wave</text>
+    <path d="M456 31 H494" class="arrow"/>
+    <rect x="494" y="0" width="120" height="62" class="box"/>
+    <text x="554" y="26" text-anchor="middle" class="blue" font-size="16">학습 계획</text>
+    <text x="554" y="46" text-anchor="middle" class="text" font-size="13">작게 검증</text>
+  </g>
+  <text x="360" y="198" text-anchor="middle" class="red" font-size="17">모르는 것을 포장하지 않고, 확인 가능한 다음 행동으로 답변을 닫는다.</text>
+  <text x="360" y="226" text-anchor="middle" class="text" font-size="15">정체성: 검증 가능한 펌웨어 신입</text>
+</svg>
