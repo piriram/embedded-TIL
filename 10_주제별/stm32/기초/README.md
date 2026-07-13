@@ -24,6 +24,7 @@ STM32F767 입문 강의 중 **공통 기초 개념**(ARM 코어·버스, 레지�
 | 7 | [ADC 원리와 실습](../adc/1_ADC원리와_실습.md) | 샘플링/양자화, 분해능, SAR, 레귤러/인젝티드 | adc | 완료 |
 | 8 | [타이머/카운터와 PWM](../timer/1_타이머카운터와_PWM.md) | ARR/CCR, 센터얼라인, 상보출력, 데드타임 | timer | 완료 |
 | 9 | [UART 통신](../uart/1_UART통신.md) | 비동기 직렬, 보레이트, TXE/RXNE, TX↔RX | uart | 완료 |
+| 보조 | [메모리 레이아웃 — Flash, RAM, stack, heap](./메모리_레이아웃_Flash_RAM_Stack_Heap.md) | `.data`, `.bss`, startup code, map file, stack–heap 충돌 | 기초 | 완료 |
 
 ---
 

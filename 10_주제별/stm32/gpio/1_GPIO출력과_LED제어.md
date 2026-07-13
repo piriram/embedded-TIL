@@ -126,6 +126,8 @@ GPIOD->ODR &= ~(1 << 3);   // PD3 = 0 → LED ON
 GPIOD->ODR |=  (1 << 3);   // PD3 = 1 → LED OFF
 ```
 
+위 `ODR`의 `&=`/`|=`는 비트 마스크를 배우기 위한 전형적인 RMW(read-modify-write) 표기다. 실전에서 ISR이나 다른 실행 흐름이 같은 ODR을 갱신할 수 있다면, STM32의 `BSRR`에 한 번 write하는 방식이 더 안전하다. 자세한 이유와 코드는 [GPIO BSRR로 안전하게 출력하기](./3_GPIO_BSRR로_안전하게_출력하기.md)를 참고한다.
+
 ---
 
 ## 6. 무한 루프와 전역 변수로 제어
@@ -190,6 +192,7 @@ while (1) {
 - **STM32F767 레퍼런스 매뉴얼** — GPIO 챕터 (MODER/OTYPER/OSPEEDR/ODR 레지스터 맵)
 - **STM32F767 데이터시트** — 핀별 Alternate/Additional Function 표
 - 관련: [레지스터 직접 접근(메모리 맵)](../기초/2_레지스터_직접접근_메모리맵.md)
+- 심화: [GPIO BSRR로 안전하게 출력하기](./3_GPIO_BSRR로_안전하게_출력하기.md)
 
 ---
 
