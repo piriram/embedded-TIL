@@ -13,6 +13,8 @@
 - [04 RTOS 기초](./필기노트_04_RTOS_기초.md)
 - [05 Timer / PWM](./필기노트_05_Timer_PWM.md)
 - [05 Timer / PWM ver2 — 시간 이벤트에서 주기 제어까지](./필기노트_05_Timer_PWM_ver2.md)
+- [05 Timer / PWM ver3 — 시간 이벤트와 PWM의 기본 흐름](./필기노트_05_Timer_PWM_ver3.md)
+- [05 Timer / PWM ver4 — 코넬 노트: 시간 이벤트와 PWM](./필기노트_05_Timer_PWM_ver4.md)
 - [06 I2C / SPI / CAN](./필기노트_06_I2C_SPI_CAN.md)
 - [07 디버깅 / 검증](./필기노트_07_디버깅_검증.md)
 - [08 미니 프로젝트 설명](./필기노트_08_미니_프로젝트_설명.md)
