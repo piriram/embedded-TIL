@@ -23,8 +23,11 @@
 <span style="color:#111827">a. 외부 pin 신호가 들어온 횟수를 셈</span><br>
 <span style="color:#111827">↔ 같은 Timer peripheral도 clock source에 따라 두 역할을 할 수 있음</span><br>
 <br>
-<span style="color:#1d4ed8">2. Timer는 PSC → CNT → ARR 순서로 시간을 만든다</span><br>
-<span style="color:#1d4ed8">1) 하드웨어 시간 흐름</span><br>
+<span style="color:#1d4ed8">2. Timer는 속도를 낮춰 세고, 끝값에서 event를 만든다 (PSC → CNT → ARR)</span><br>
+<span style="color:#1d4ed8">1) 먼저 세 이름</span><br>
+<span style="color:#111827">① PSC(Prescaler)는 clock 속도를 낮추고, CNT(Counter)는 현재 숫자를 세며, ARR(Auto-Reload Register)은 셀 끝값을 정함</span><br>
+<span style="color:#dc2626">! 먼저 “속도를 낮춘 뒤 → 숫자를 세고 → 끝값에서 event”라고 잡으면 됨</span><br>
+<span style="color:#1d4ed8">2) 하드웨어 시간 흐름</span><br>
 <span style="color:#1d4ed8">① Timer clock → PSC → CNT → ARR → Update Event</span><br>
 <span style="color:#111827">a. PSC(Prescaler)는 clock을 나눠 CNT가 세는 속도를 낮춤</span><br>
 <span style="color:#111827">cf) PSC register가 N이면 실제 분주비는 N+1</span><br>
@@ -32,7 +35,7 @@
 <span style="color:#111827">c. ARR(Auto-Reload Register)은 CNT가 셀 끝값</span><br>
 <span style="color:#111827">d. CNT가 ARR에 도달하면 reload하고 Update Event를 만들 수 있음</span><br>
 <span style="color:#dc2626">! 계산은 항상 clock → PSC → CNT → ARR 순서로 생각</span><br>
-<span style="color:#1d4ed8">2) 0부터 세므로 +1</span><br>
+<span style="color:#1d4ed8">3) 0부터 세므로 +1</span><br>
 <span style="color:#1d4ed8">① PSC와 ARR의 실제 의미</span><br>
 <span style="color:#111827">a. PSC register가 N이면 실제 분주비는 N+1</span><br>
 <span style="color:#111827">b. ARR register가 M이면 한 주기의 count 수는 M+1</span><br>
@@ -43,6 +46,11 @@
 <span style="color:#111827">Timer clock → PSC → CNT → ARR → Update Event</span><br>
 <span style="color:#dc2626">! 화살표 순서와 PSC·ARR의 역할을 함께 확인</span><br>
 <img src="./assets/filginote_05/timer_count_flow.svg" width="720" alt="Timer clock, prescaler, counter, ARR, update event 흐름"><br>
+<span style="color:#1d4ed8">외부 그림 후보: 더 보기 쉬운 흐름도를 골라 확인</span><br>
+<span style="color:#111827">① <a href="https://micromouseonline.com/wp-content/uploads/2016/02/TIM3-diagram-Fig119-RM0090.png">후보 A — TIM3 단순화 block diagram (원본 이미지)</a>: clock → PSC → CNT → ARR 연결을 중심으로 보기</span><br>
+<span style="color:#111827">② <a href="https://deepbluembedded.com/wp-content/uploads/2020/06/STM32-Basic-Timer-Module-Hardware-Timers-Explained-Tutorial.png">후보 B — STM32 Basic Timer block diagram (원본 이미지)</a>: PSC, CNT, ARR와 update/interrupt 연결을 조금 더 자세히 보기</span><br>
+<span style="color:#111827">③ <a href="https://www.st.com/resource/en/product_training/STM32G4-WDG_TIMERS-General_Purpose_Timer_GPTIM.pdf">후보 C — ST 공식 GPTIM 교육자료 (PDF)</a>: 실제 Timer 내부 block과 Update Event를 공식 표기로 확인</span><br>
+<span style="color:#dc2626">! A는 흐름 이해용, B는 register 연결 이해용, C는 실제 hardware 구조 확인용</span><br>
 <br>
 <span style="color:#1d4ed8">3. Update Event가 ISR에 도달하려면 허용 단계가 필요하다</span><br>
 <span style="color:#1d4ed8">1) Event와 interrupt는 다름</span><br>
