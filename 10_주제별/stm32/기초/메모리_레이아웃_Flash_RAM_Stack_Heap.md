@@ -98,7 +98,7 @@ static uint8_t calibration[1024] = {1};  /* SRAM + Flash 초기값 이미지 */
 ## 참고 자료
 
 - [Memory Layout in Embedded Systems | Flash, RAM, Stack, Heap Explained with STM32 (YouTube)](https://www.youtube.com/watch?v=UdkuoHSp_0s)
-- [C 프로그램의 메모리 레이아웃](../../c언어/C_프로그램_메모리_레이아웃.md) — 일반 C 모델과 저장 기간
+- [C 프로그램의 메모리 레이아웃](../../c언어/020_C_프로그램_메모리_레이아웃.md) — 일반 C 모델과 저장 기간
 - [레지스터 직접 접근(메모리 맵)](./2_레지스터_직접접근_메모리맵.md) — STM32 주변장치 주소 공간
 - [RTOS 메모리 관리](../../cs/RTOS/4_메모리_관리.md) — task stack·heap·stack watermark
 

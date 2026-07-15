@@ -11,5 +11,4 @@
 | 7 | [bit-field와 mask/shift](./7_bit_field와_mask_shift.md) | implementation-defined layout | [YouTube](https://www.youtube.com/watch?v=aMAM5vL7wTs) | 완료 |
 | 8 | [CMSIS 구조체와 MCU 레지스터 매핑](./8_CMSIS_구조체와_MCU_레지스터_매핑.md) | register block, `volatile` | [YouTube](https://www.youtube.com/watch?v=A0r3O2TxtiU) | 선택 심화 |
 
-학습 순서는 **linkage → 모듈 경계 → 안전한 추상화 → 메모리 배치 → 레지스터 접근**이다. 기존 [전역 변수와 static 변수](../전역변수와_static.md), [전처리기와 volatile](../Preprocessor와_volatile.md), [비트 연산자](../비트연산자.md)와 함께 본다.
-
+학습 순서는 **linkage → 모듈 경계 → 안전한 추상화 → 메모리 배치 → 레지스터 접근**이다. 기존 [전역 변수와 static 변수](../070_전역변수와_static.md), [전처리기와 volatile](../050_Preprocessor와_volatile.md), [비트 연산자](../040_비트연산자.md)와 함께 본다.

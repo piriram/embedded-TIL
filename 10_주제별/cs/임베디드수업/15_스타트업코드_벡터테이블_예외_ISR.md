@@ -56,7 +56,7 @@ void Reset_Handler(void);
 
 `Reset_Handler`는 보통 `.data` 초기값 복사, `.bss` zero-initialization, C library 초기화 등을 거쳐 `main()`을 호출한다. 이 강의에서는 기존 IAR runtime startup entry(`__iar_program_start`)를 custom vector table의 reset entry로 재사용한다.
 
-함수 포인터의 정확한 선언·callback 설계는 [함수 포인터와 콜백](../../c언어/함수포인터와_콜백.md)을 참고한다.
+함수 포인터의 정확한 선언·callback 설계는 [함수 포인터와 콜백](../../c언어/080_함수포인터와_콜백.md)을 참고한다.
 
 ---
 

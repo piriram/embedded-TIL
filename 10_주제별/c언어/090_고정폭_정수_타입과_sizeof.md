@@ -102,7 +102,7 @@ volatile uint32_t * const gpio_moder =
 ## 참고 자료
 
 - [How to Find Memory Size & Limits of C Data Types | Microcontrollers (Video 08) (YouTube)](https://www.youtube.com/watch?v=vq7ghSMR2ts)
-- [`sizeof`와 포인터 메모리 크기](./sizeof와_포인터_메모리_크기.md) — `sizeof`와 배열 decay·heap block 크기
+- [`sizeof`와 포인터 메모리 크기](./030_sizeof와_포인터_메모리_크기.md) — `sizeof`와 배열 decay·heap block 크기
 - [컴퓨터는 어떻게 숫자를 세는가](../cs/임베디드수업/1_컴퓨터는_어떻게_숫자를_센다.md) — signed/unsigned와 2의 보수
 - [레지스터 직접 접근(메모리 맵)](../stm32/기초/2_레지스터_직접접근_메모리맵.md) — fixed-width type과 `volatile`을 쓰는 MMIO 맥락
 

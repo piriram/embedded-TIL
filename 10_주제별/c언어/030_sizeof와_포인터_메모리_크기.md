@@ -87,7 +87,7 @@ struct Buffer {
 ## 참고 자료
 
 - [A common pitfall when using sizeof() with pointers in C. (YouTube)](https://www.youtube.com/watch?v=P0k1C3F61xY)
-- [C 언어 포인터](./포인터.md) — 주소, 포인터 크기, 포인터 연산 복습
+- [C 언어 포인터](./010_포인터.md) — 주소, 포인터 크기, 포인터 연산 복습
 - [RTOS 메모리 관리](../cs/RTOS/4_메모리_관리.md) — task stack·heap·동적 할당의 실제 사용
 
 ---

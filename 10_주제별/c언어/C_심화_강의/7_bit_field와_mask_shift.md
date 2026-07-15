@@ -37,7 +37,7 @@ mask/shift는 데이터시트의 bit number가 코드에 드러나므로 레지�
 ## 참고 자료
 
 - [원본 강의](https://www.youtube.com/watch?v=aMAM5vL7wTs)
-- [비트 연산자](../비트연산자.md)
+- [비트 연산자](../040_비트연산자.md)
 
 ---
 
@@ -49,4 +49,3 @@ mask/shift는 데이터시트의 bit number가 코드에 드러나므로 레지�
 - **비교:** mask/shift는 정확한 bit 위치를 명시해 레지스터·통신 패킷에 더 안전하다.
 - **30초 통합 답변:**
   > bit-field는 구조체 멤버의 폭을 비트로 지정해 내부 상태를 압축하는 문법입니다. 다만 bit가 어느 방향으로 배치되는지, 저장 단위와 padding, signedness는 compiler와 ABI에 의존할 수 있습니다. 그래서 정확한 binary layout이 필요한 레지스터나 통신 패킷에는 bit-field보다 데이터시트 bit 번호를 직접 표현하는 mask/shift를 우선합니다.
-

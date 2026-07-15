@@ -131,9 +131,9 @@ FreeRTOS에서 task, queue, semaphore 같은 kernel object도 heap을 사용할 
 ## 참고 자료
 
 - [Why you Should NEVER Use Malloc in Real-Time Systems (YouTube)](https://www.youtube.com/watch?v=0DXU6pYKkEk)
-- [C 프로그램의 메모리 레이아웃](./C_프로그램_메모리_레이아웃.md) — stack·heap·저장 기간의 기초
+- [C 프로그램의 메모리 레이아웃](./020_C_프로그램_메모리_레이아웃.md) — stack·heap·저장 기간의 기초
 - [RTOS 메모리 관리](../cs/RTOS/4_메모리_관리.md) — FreeRTOS static allocation, heap scheme, stack watermark
-- [`sizeof`와 포인터 메모리 크기](./sizeof와_포인터_메모리_크기.md) — 동적 block 길이를 별도로 보관해야 하는 이유
+- [`sizeof`와 포인터 메모리 크기](./030_sizeof와_포인터_메모리_크기.md) — 동적 block 길이를 별도로 보관해야 하는 이유
 
 ---
 

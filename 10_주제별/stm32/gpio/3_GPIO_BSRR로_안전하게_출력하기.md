@@ -125,7 +125,7 @@ BSRR은 **GPIO ODR bit update 하나**를 RMW 없이 atomic하게 만든다. 그
 
 - [Blink LED using GPIO BSRR Register | STM32 Bare Metal Programming Explained — YouTube](https://www.youtube.com/watch?v=yVE-KrwpL7I)
 - [STM32F765xx/F767xx/F768Ax/F769xx Reference Manual (RM0390) — STMicroelectronics](https://www.st.com/resource/en/reference_manual/dm00135183-stm32f765xx-stm32f767xx-stm32f768ax-and-stm32f769xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf) — General-purpose I/Os, `GPIOx_BSRR`
-- 관련: [GPIO 출력과 LED 제어](./1_GPIO출력과_LED제어.md), [비트 연산자와 비트 마스크](../../c언어/비트연산자.md)
+- 관련: [GPIO 출력과 LED 제어](./1_GPIO출력과_LED제어.md), [비트 연산자와 비트 마스크](../../c언어/040_비트연산자.md)
 
 ---
 

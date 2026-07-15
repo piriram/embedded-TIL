@@ -128,7 +128,7 @@ GPIOD_ODR |= (1U << 12);
 ## 참고 자료
 
 - [Const, const pointers, and pointers to const things (YouTube)](https://www.youtube.com/watch?v=HpElPprsR0I)
-- 관련 노트: [C Preprocessor와 volatile 키워드](./Preprocessor와_volatile.md)
+- 관련 노트: [C Preprocessor와 volatile 키워드](./050_Preprocessor와_volatile.md)
 - 관련 면접 카드: [`const` 키워드](../../20_면접대비/답변카드/const_키워드.md)
 
 ---

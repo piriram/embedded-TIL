@@ -161,7 +161,7 @@ C11 atomic에는 `memory_order_relaxed`, `memory_order_acquire`, `memory_order_r
 ## 참고 자료
 
 - [Making variables atomic in C (YouTube)](https://www.youtube.com/watch?v=_xX25ThomIo)
-- [C Preprocessor와 volatile 키워드](./Preprocessor와_volatile.md)
+- [C Preprocessor와 volatile 키워드](./050_Preprocessor와_volatile.md)
 - 관련 면접 카드: [Race Condition](../../20_면접대비/답변카드/Race_Condition.md), [Critical Section](../../20_면접대비/답변카드/Critical_Section.md)
 
 ---

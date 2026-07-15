@@ -34,7 +34,7 @@ void motor_set_duty(unsigned int x) { apply_pwm(x); }
 ## 참고 자료
 
 - [원본 강의](https://www.youtube.com/watch?v=3E-r4GfvWOI)
-- [전역 변수와 static 변수](../전역변수와_static.md)
+- [전역 변수와 static 변수](../070_전역변수와_static.md)
 
 ---
 
@@ -46,4 +46,3 @@ void motor_set_duty(unsigned int x) { apply_pwm(x); }
 - **비교:** 일반 지역 변수는 반환 시 사라지고, 일반 파일 범위 변수는 `extern`으로 다른 파일에서 참조할 수 있다.
 - **30초 통합 답변:**
   > `static`은 위치에 따라 두 의미가 있습니다. 함수 내부에서는 이름은 함수 안에만 두면서 객체를 프로그램 종료까지 유지해 호출 간 상태를 보존합니다. 파일 범위에서는 변수와 함수의 linkage를 internal로 만들어 해당 `.c`에서만 보이게 합니다. 따라서 드라이버 내부 상태와 헬퍼 함수는 `static`으로 숨기되, 지역 static은 재진입 안전성과 별도로 검토합니다.
-
